@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acróstico Animado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mensaje flotante -->
+    <div id="floating-message" class="floating-message">
+        <p>Choii, mientras estaba en el hospital, se me ocurrió hacerte esto. Tal vez pienses que es algo infantil o cursi, pero no me importa. Solo quiero que lo veas/leas, porque cada palabra y cada gesto salieron de mi corazoncito que estaba luchando en esos dias</p>
+        <button id="start-button" class="start-btn">¡Empezar!</button>
+        <button class="close-btn">&times;</button>
+    </div>
+
+    <!-- Contenido del acróstico -->
+    <div class="acrostic-container" id="acrostic-container" style="display: none;">
+        <div class="acrostic" id="acrostic1">
+            <div class="line" id="line1">
+                <div class="letter-group">
+                    <span class="letter">C</span>
+                    <span class="text">ambiaste mis noches con tu aparación,</span>
+                </div>
+            </div>
+            <div class="line" id="line2">
+                <div class="letter-group">
+                    <span class="letter">H</span>
+                    <span class="text">as estado conmigo desde el primer día que nos conocimos,</span>
+                </div>
+            </div>
+            <div class="line" id="line3">
+                <div class="letter-group">
+                    <span class="letter">O</span>
+                    <span class="text">freciendo tu apoyo sin que te lo pidiera,</span>
+                </div>
+            </div>
+            <div class="line" id="line4">
+                <div class="letter-group">
+                    <span class="letter">I</span>
+                    <span class="text">ncluso en mis momentos más difíciles.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="acrostic" id="acrostic2">
+            <div class="line" id="line1">
+                <div class="letter-group">
+                    <span class="letter">C</span>
+                    <span class="text">onfío mucho en ti como en nadie más,</span>
+                </div>
+            </div>
+            <div class="line" id="line2">
+                <div class="letter-group">
+                    <span class="letter">H</span>
+                    <span class="text">ablar contigo hizo cambiar mis dias por completo,</span>
+                </div>
+            </div>
+            <div class="line" id="line3">
+                <div class="letter-group">
+                    <span class="letter">O</span>
+                    <span class="text">btuve de ti palabras que necesitaba oír,</span>
+                </div>
+            </div>
+            <div class="line" id="line4">
+                <div class="letter-group">
+                    <span class="letter">I</span>
+                    <span class="text">luminaste mi vida y me sacastes de la oscuridad que me rodeaba.</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="siguiente-pagina.html" class="button">Ir a otra página</a>
+    </div>
+
+    <!-- Audio para la canción -->
+    <audio id="background-music" src="unu/party favor  billie eilish lyrics español-[AudioTrimmer.com].mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
