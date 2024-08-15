@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('start-button').addEventListener('click', closeMessage);
 
     // Ocultar el mensaje después de un tiempo (por ejemplo, 10 segundos) si no se cierra manualmente
-    setTimeout(closeMessage, 10000);
+    setTimeout(closeMessage, 20000);
 
     // Inicialmente mostrar el primer acróstico
     showAcrostic(currentAcrostic);
